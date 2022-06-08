@@ -12,6 +12,8 @@ import com.revature.services.UserService;
 @RestController
 public class LoginController {
 
+    // Autowired
+
     @Autowired
     private UserService userService;
 
